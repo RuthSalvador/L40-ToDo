@@ -1,8 +1,8 @@
 'use strict';
 
 const TodoItem = (data, update) => {
-  const todo = $('<div class="todo"');
-  const checkbox = $('<input type="checkbox">');
+  const todo = $('<div class="todo">');
+  let checkbox = $('<input type="checkbox">');
   const span = $('<span>' + data.text + '</span>');
   const remove = $('<button>Remove</button>');
 
